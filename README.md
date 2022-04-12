@@ -10,6 +10,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 ## Descrição do Projeto
 Descrição do tema do projeto, incluindo contexto gerador, motivação. Descrição do objetivo principal do projeto. Subseções podem ser criadas para organizar o texto.
 
+
 ## Plano de Trabalho
 - Etapa 1 (2 semanas): Estudos de operações aritméticas e filtros digitais em imagens
 
@@ -25,15 +26,15 @@ Nesta etapa o estudo será mais teórico, tendo foco na geometria fractal, na ex
 
 - Etapa 4 (1 semanas): Obtenção de dados
 
-
+Será feita uma busca para encontrar bases de imagens mamográficas para utilizar nos testes. Pesquisando previamente já foi encontrado um banco de dados pertencente ao LAPIMO (Laboratorio de análise e processamento de imagens médicas e odontológicas), pertencente à USP (Universidade de São Paulo), que contém imagens mamográficas. No entanto, o acesso é liberado somente à pesquisadores cadastrados, então uma busca de como realizar tal cadastro deve ser realizada.
 
 - Etapa 5 (2 semanas): Codificação e testes
 
-
+Já com acesso à base de imagens, as ferramentas de processamento de imagens serão aplicadas em busca de um algoritmo que, independente do tamanho e formato da mama, consiga identificar os nódulos nas mamas. Diversos testes devem ser feitos para uma maior precisão.
 
 - Etapa 6 (2 semanas): Escrita do relatório final
 
-
+Por fim, um relatório final será redigido. O tempo de 2 semanas leva em consideração possíveis atrasos em outras etapas e contratempos que possam retardar o andamento do projeto.
 
 ## Referências Bibliográficas
 PADILHA, Renata Junges; CHICON, Patricia Mariotto Mozzaquatro; ANTONIAZZI, Rodrigo Luiz; DE LIMA, Claudinei. **Processamento de Imagens como Método na Diferenciação dos Tumores de Mama**. Revista Interdisciplinar de Ensino, Pesquisa e Extensão V.5 N.1 2017.
