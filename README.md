@@ -8,8 +8,11 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Igor Rando |	171959 |	Física Médica |
 
 ## Descrição do Projeto
-Descrição do tema do projeto, incluindo contexto gerador, motivação. Descrição do objetivo principal do projeto. Subseções podem ser criadas para organizar o texto.
+O câncer de mama é o segundo tipo de câncer mais frequente no mundo e o primeiro entre mulheres. Devido à desinformação e à falta de acesso a exames adequados o câncer de mama ainda causa muitas mortes no Brasil.
 
+Este projeto teve como motivação uma iniciação científica que o aluno participou que teve como objeto de estudo redes neurais convolucionais e suas aplicações em imagens médicas. Como o foco da disciplina é o processamento de imagens e não o desenvolvimento de redes neurais, é uma boa oportunidade para explorar o outro lado de um projeto que foi realizado.
+
+O objetivo deste projeto é estudar o diagnóstico do câncer de mama e um possível meio de melhorar a classificação dos tumores. Para isso, serão estudados diversos métodos de processamento de imagens que ajudam na identificação desses tumores. Inicialmente não há intenção de montar um script que faça a classificação automática, pois isso envolve diversos fatores e resultaria em uma rede neural, no entanto, alguns fatores serão analisados e comparados com os dados.
 
 ## Plano de Trabalho
 - Etapa 1 (2 semanas): Estudos de operações aritméticas e filtros digitais em imagens
