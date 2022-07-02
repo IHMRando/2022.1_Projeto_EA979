@@ -78,3 +78,5 @@ HERSCHKOWITZ, Jason I. **Identification of conserved gene expression features be
 MAKANDAR, Aziz; HALALLI, Bhagirathi. **Image Enhancement Techniques using Highpass and Lowpass Filters**. Department of Computer Science, Karnataka State Women’s University, Vijayapur, 2015.
 
 BORGES, V. R. P.; GULIATO, Denise. **Detecção de Agrupamentos de Microcalcificações em Imagens Mamográficas Digitais Utilizando Etapas de Segmentação da Mama e Realce**. Faculdade de Computação, Universidade Federal de Uberlândia, 2011.
+
+GONZALES, Rafael; WOODS, Richard. **Digital Image Processing**. Pearson Education, 2008.
