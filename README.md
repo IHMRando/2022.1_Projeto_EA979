@@ -61,22 +61,19 @@ Foram realizados testes com 13 imagens para testar a eficiência do código em d
 
 Abaixo segue uma tabela com alguns dos testes realizados.
 
-![Original 1]()  |  ![Resultado 1]()
+Imagens Iniciais  |  Imagens Finais
 :-------------------------:|:-------------------------:
-![Original 2]()  |  ![Resultado 2]()
-:-------------------------:|:-------------------------:
-![Original 3]()  |  ![Resultado 3]()
-:-------------------------:|:-------------------------:
-![Original 4]()  |  ![Resultado 4]()
-:-------------------------:|:-------------------------:
-![Original 5]()  |  ![Resultado 5]()
-:-------------------------:|:-------------------------:
-![Original 6]()  |  ![Resultado 6]()
+![Original 1](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/2%20orig.png)  |  ![Resultado 1](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/2%20acerto.png)
+![Original 2](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/3%20orig.png)  |  ![Resultado 2](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/3%20acerto.png)
+![Original 3](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/4%20orig.png)  |  ![Resultado 3](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/4%20acerto.png)
+![Original 4](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/9%20orig.png)  |  ![Resultado 4](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/9%20acerto.png)
+![Original 5](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/10%20orig.png)  |  ![Resultado 5](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/10%20acerto.png)
+![Original 6](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/12%20orig.png)  |  ![Resultado 6](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/d03785b5f0ad96e78533094f25c741b64707c608/images/12%20acerto.png)
+
+As primeira imagem foi a outra considerada insatisfatória, no entanto, todas as outras destacaram corretamente as regiões correspondentes a possíveis nódulos na mama.
 
 ## Discussão
-> Discutir os resultados finais obtidos considerando-se o objetivo inicialmente proposto.
-> Descrever as principais dificuldades enfrentadas na execução do projeto.
-> Descrever limitações da abordagem adotada.
+
 
 ## Referências Bibliográficas
 PADILHA, Renata Junges; CHICON, Patricia Mariotto Mozzaquatro; ANTONIAZZI, Rodrigo Luiz; DE LIMA, Claudinei. **Processamento de Imagens como Método na Diferenciação dos Tumores de Mama**. Revista Interdisciplinar de Ensino, Pesquisa e Extensão V.5 N.1 2017.
