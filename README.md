@@ -12,32 +12,24 @@ O câncer de mama é o segundo tipo de câncer mais frequente no mundo e o prime
 
 Este projeto teve como motivação uma iniciação científica que o aluno participou que teve como objeto de estudo redes neurais convolucionais e suas aplicações em imagens médicas. Como o foco da disciplina é o processamento de imagens e não o desenvolvimento de redes neurais, é uma boa oportunidade para explorar o outro lado de um projeto que foi realizado.
 
-O objetivo deste projeto é estudar o diagnóstico do câncer de mama e um possível meio de melhorar a classificação dos tumores. Para isso, serão estudados diversos métodos de processamento de imagens que ajudam na identificação desses tumores. Inicialmente não há intenção de montar um script que faça a classificação automática, pois isso envolve diversos fatores e resultaria em uma rede neural, no entanto, alguns fatores serão analisados e comparados com os dados.
+O objetivo deste projeto é estudar um método de identificação de tumores na mama. Para isso, foram utilizados diversos métodos de processamento de imagens que auxiliaram nessa identificação. Um algoritmo foi desenvolvido e implementado para que, a partir de imagens mamográficas fornecidas, encontre e destaque nódulos na mama. A classificação desses nódulos é um adicional que será comentado apenas superficialmente para complementar o trabalho.
 
-## Plano de Trabalho
-- Etapa 1 (2 semanas): Estudos de operações aritméticas e filtros digitais em imagens
+## Abordagem Adotada
+### Base de Imagens
+As imagens utilizadas foram obtidas através de um banco de dados pertencente ao Laboratório de Análise e Processamento de Imagens Médicas e Odontológicas (LAPIMO). Ele contém diversas imagens mamográficas que são compartilhadas entre pesquisadores e, para ter acesso a ela, foi necessário fazer um cadastro e pedir autorização. 
 
-Será feito um estudo mais aprofundado de todas as operações aritméticas em imagens, visto que são a base para o entendimento pleno do restante das operações. Após isso, o estudo será focado nos tipos de filtros digitais e suas aplicações, tais como passa-baixa e passa-alta, com foco no último, já que será o mais utilizado posteriormente.
+As mamografias fornecidas possuem alguns dados da paciente e, na maioria dos casos, um breve laudo sobre o nódulo, como a posição e suas características. O histórico familiar do paciente também pode ser visualizado, facilitanto a classificação dos nódulos.
 
-- Etapa 2 (2 semanas): Estudo de detecção de bordas e operações morfológicas em imagens
+### Processamentos Adotados
+Depois de adquiridas as imagens, começaram os tratamentos para identificação de possíveis nódulos. O primeiro problema foi encontrado assim que o *download* da primeira imagem foi feito: por algum motivo, ao invés de baixar igual era apresentada no site, foi extraída uma imagem com saturação, brilho e contraste extremamente alterados. 
 
-Em seguida, será conduzido um estudo sobre limiarização alguns operadores de detecção de borda, que serão bem importantes na diferenciação e classificação dos tumores. Os filtros morfológicos e outros possíveis tratamentos da imagem também serão objetos de estudo nesta etapa.
+## Resultados Finais
+> Descrever e apresentar os resultados finais obtidos
 
-- Etapa 3 (3 semana): Estudo de métodos para diferenciação e classificação de tumores na mama
-
-Nesta etapa o estudo será mais teórico, tendo foco na geometria fractal, na excentricidade de uma elipse e em índices de compacidade e como tais análises podem classificar um tumor. Outras fontes e metodologias também serão pesquisadas neste período, buscando aumentar o número de fatores que podem diferenciar os tumores.
-
-- Etapa 4 (1 semanas): Obtenção de dados
-
-Será feita uma busca para encontrar bases de imagens mamográficas para utilizar nos testes. Pesquisando previamente já foi encontrado um banco de dados pertencente ao LAPIMO (Laboratorio de análise e processamento de imagens médicas e odontológicas), pertencente à USP (Universidade de São Paulo), que contém imagens mamográficas. No entanto, o acesso é liberado somente à pesquisadores cadastrados, então uma busca de como realizar tal cadastro deve ser realizada.
-
-- Etapa 5 (2 semanas): Codificação e testes
-
-Já com acesso à base de imagens, as ferramentas de processamento de imagens serão aplicadas em busca de um algoritmo que, independente do tamanho e formato da mama, consiga identificar os nódulos nas mamas. Diversos testes devem ser feitos para uma maior precisão.
-
-- Etapa 6 (2 semanas): Escrita do relatório final
-
-Por fim, um relatório final será redigido. O tempo de 2 semanas leva em consideração possíveis atrasos em outras etapas e contratempos que possam retardar o andamento do projeto.
+## Discussão
+> Discutir os resultados finais obtidos considerando-se o objetivo inicialmente proposto.
+> Descrever as principais dificuldades enfrentadas na execução do projeto.
+> Descrever limitações da abordagem adotada.
 
 ## Referências Bibliográficas
 PADILHA, Renata Junges; CHICON, Patricia Mariotto Mozzaquatro; ANTONIAZZI, Rodrigo Luiz; DE LIMA, Claudinei. **Processamento de Imagens como Método na Diferenciação dos Tumores de Mama**. Revista Interdisciplinar de Ensino, Pesquisa e Extensão V.5 N.1 2017.
