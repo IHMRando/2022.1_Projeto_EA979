@@ -41,10 +41,37 @@ O ideal seria normalizar a imagem resultante e aplicar o filtro passa-alta novam
 
 Com o filtro passa-alta aplicado pela segunda vez, uma outra limiarização foi realizada para remoção das partes escuras da mama. Novamente essa etapa teve que ser alterada de acordo com a imagem, isso porque o valor do limiar devia ser devidamente escolhido para que o resultado não tivesse pouca informação ou informação demais. Esse valor foi obtido através da tentativa e erro para cada imagem testada. Um exemplo pode ser visualizado abaixo.
 
-![Figura 3](images/Tabela comparacao.png)
+![Figura 3](https://github.com/IHMRando/2022.1_Projeto_EA979/blob/3779e636493950014e88daacce5638858e4985f2/images/Tabela%20comparacao.png)
+
+Nesse exemplo o valor do limiar escolhido foi 135. No entanto, ainda há informação demais na imagem. Para remover as regiões claras restantes, foi passada uma máscara para que apenas as regiões com mais concentração de pixels claros fossem mantidas. Diversos tamanhos de máscaras foram testados e, para quase todas as imagens, foi utilizada uma 6x6. A imagem resultante era a indicação dos agrupamentos.
+
+![Figura 4](images/11.6.png)
+
+Para facilitar a visualização e a comparação, foi passado um filtro de detecção de bordas. O utilizado foi o Canny simplesmente pela praticidade na implementação. O resultado foi convertido para RGB e suas cores foram alteradas para poder enxergar os agrupamentos sem dificuldades. Ao somar o resultado com a imagem inicial é obtido o resultado final e alguns exemplos serão ilustrados na seção Resultados Finais. A figura abaixo mostrar o resultado do exemplo utilizado nessa seção.
+
+![Figura 4](images/13.png)
+
+Esta imagem em específico foi considerada como insastisfatória, dado que há áreas com maior intensidade que não foram consideradas como agrupamentos. Isso pode ter sido um erro acarretado pelo filtro utilizado que, como dito anteriormente, pode não ter sido a melhor escolha. O *script* descrito nessa seção está disponível para visualização no notebook [Google Colab](https://colab.research.google.com/drive/1CEHYj5aE3Mj8Xfwpji4thSDZ1_H_UKzJ?usp=sharing,  "Google Colab").
+
+### Classificação
+
 
 ## Resultados Finais
-> Descrever e apresentar os resultados finais obtidos
+Foram realizados testes com 13 imagens para testar a eficiência do código em diferentes situações. Para um resultado ser considerado satisfatório ele deve indicar corretamente a existência de nódulos conforme o laudo e, para ser insatisfatório, não apontar nódulos ou apontar para regiões incorretas. Seguindo esse padrão, apenas duas das imagens testadas foram consideradas insatisfatórias e as outras 11 tiveram resultados satisfatórios.
+
+Abaixo segue uma tabela com alguns dos testes realizados.
+
+![Original 1]()  |  ![Resultado 1]()
+:-------------------------:|:-------------------------:
+![Original 2]()  |  ![Resultado 2]()
+:-------------------------:|:-------------------------:
+![Original 3]()  |  ![Resultado 3]()
+:-------------------------:|:-------------------------:
+![Original 4]()  |  ![Resultado 4]()
+:-------------------------:|:-------------------------:
+![Original 5]()  |  ![Resultado 5]()
+:-------------------------:|:-------------------------:
+![Original 6]()  |  ![Resultado 6]()
 
 ## Discussão
 > Discutir os resultados finais obtidos considerando-se o objetivo inicialmente proposto.
